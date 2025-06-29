@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&mkp MB3  &mkp MB4  &mkp MB5  &trans  &trans  &trans
+&mkp MB3  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
