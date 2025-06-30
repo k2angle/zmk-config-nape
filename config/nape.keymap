@@ -124,7 +124,7 @@
 
         orientation90_layer {
             bindings = <
-&lt 10 LG(LS(LC(NUMBER_4)))  &mkp MB1  &lt_mkp 12 MB2  &mo 8  &mo 9  &mo 11
+&lt 10 LG(R)  &lt_mkp 12 MB1  &lt_mkp 12 MB2  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -208,7 +208,7 @@
 
         layer_12 {
             bindings = <
-&trans  &kp LG(LEFT_BRACKET)  &none  &trans  &trans  &trans
+&trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &trans  &trans
             >;
         };
     };
