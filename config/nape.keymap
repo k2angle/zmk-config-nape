@@ -108,7 +108,7 @@
 
         orientation0_layer {
             bindings = <
-&lt 10 LS(LC(LG(NUMBER_4)))  &mkp MB1  &mkp MB2  &mo 8  &mo 9  &mo 11
+&lt 10 LS(LC(LG(NUMBER_4)))  &mkp MB1  &lt 10 RIGHT_ARROW  &mo 8  &mo 9  &mo 11
             >;
         };
 
