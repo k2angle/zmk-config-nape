@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&kp LS(LG(LC(NUMBER_4)))  &kp C_NEXT  &kp C_PREV  &trans  &trans  &trans
+&kp LS(LG(LC(NUMBER_4)))  &mkp MB5  &mkp MB4  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
