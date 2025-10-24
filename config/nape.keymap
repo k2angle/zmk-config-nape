@@ -156,7 +156,7 @@
 
         orientation270_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&lt 10 LS(LC(LG(NUMBER_4)))  &mkp MB2  &lt_mkp 10 MB1  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -188,7 +188,7 @@
 
         scroll_layer {
             bindings = <
-&kp LS(LG(LC(NUMBER_4)))  &mkp MB5  &mkp MB4  &trans  &trans  &trans
+&mkp MB1  &mkp MB5  &mkp MB4  &trans  &trans  &trans
             >;
 
             // トラックボールの動きをスクロールに変換
