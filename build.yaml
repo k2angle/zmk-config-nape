@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: xiao_ble/nrf52840/zmk
+  - board: xiao_ble
     shield: nape rgbled_adapter
