@@ -35,7 +35,7 @@
             #input-processor-cells = <2>;
             type = <INPUT_EV_REL>;
             codes = <INPUT_REL_WHEEL>;
-            track-remainders;
+
         };
 
         // 水平スクロールのスケーラー
