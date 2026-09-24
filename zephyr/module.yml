@@ -1,3 +1,5 @@
+name: zmk-config-nape
 build:
   settings:
     board_root: .
+    snippet_root: .

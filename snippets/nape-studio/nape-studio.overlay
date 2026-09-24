@@ -1,0 +1,7 @@
+/* Nape Studio-only key overrides. */
+
+&{/keymap/btclr_layer} {
+    bindings = <
+&studio_unlock  &none  &none  &bt BT_CLR  &none  &bt BT_CLR_ALL
+    >;
+};
