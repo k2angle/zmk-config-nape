@@ -5,3 +5,16 @@
 &studio_unlock  &none  &none  &bt BT_CLR  &none  &bt BT_CLR_ALL
     >;
 };
+
+// Studio can activate these disabled layers at runtime. Keep the first 12
+// layers in nape.keymap unchanged; these are capacity for layers 12–19.
+&{/keymap} {
+    studio_layer_12 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_13 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_14 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_15 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_16 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_17 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_18 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+    studio_layer_19 { status = "disabled"; bindings = <&trans &trans &trans &trans &trans &trans>; };
+};
