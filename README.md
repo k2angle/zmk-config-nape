@@ -10,7 +10,7 @@
 
 ### 自分のforkでビルドする場合
 
-自分のforkに`console-beta`ブランチを取り込み、Actionsを有効にしてください。既存forkを`main`で同期するだけでは、新しい別ブランチは自動的には追加されません。GitHub Actionsの「Build ZMK firmware」から`console-beta`を選んで手動実行するか、そのブランチへpushします。完成したUF2は実行結果の`nape-console`成果物に入ります。
+自分のforkに`console-beta`ブランチを取り込み、Actionsを有効にしてください。既存forkを`main`で同期するだけでは、新しい別ブランチは自動的には追加されません。GitHub Actionsの「Build ZMK firmware」から`console-beta`を選んで手動実行するか、そのブランチへpushします。完成した`nape-console.uf2`は実行結果の`firmware`成果物に入ります。
 
 ファームウェアを書き込むだけなら、自分でビルドする必要はありません。βリリースに添付された`nape-console.uf2`を使えます。
 
