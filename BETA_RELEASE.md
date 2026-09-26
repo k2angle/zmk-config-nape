@@ -15,7 +15,7 @@ Nape Console対応ファームウェアのβ版です。Napeのキーマップ�
 - Firmware build source: `menbou0202/zmk-config-nape` `console-beta` — `362f899420d14cae4a66f5c05ca7f021a4bca61e`（[Actionsの成功した実行](https://github.com/menbou0202/zmk-config-nape/actions/runs/36231883233)）
 - ZMK fork: `menbou0202/zmk` `console-beta` — `b3544e343c28580a2f5e68c23e83d6f175b8595f`
 - Trackball driver: `menbou0202/zmk-pmw3610-driver-nape` `console-beta` — `4be9979b9ff008b209de8c523ab2665da1adc28e`
-- Web UI: `menbou0202/nape-console` — `64fcd9f5e1265118d5d3f5a19d8fc123f803b483`
+- Web UI: `menbou0202/nape-console` — `2a7d4832088d14e45c80ad62181b76b1b518af88`
 
 この文案で配布を想定しているローカルビルドUF2のSHA-256: `4b003fb2d793901d46de5afbb4b505aa566cf812ead8dbcb59a54b399d54513b`。Actionsの`firmware`成果物内のUF2とはハッシュが異なる可能性があるため、実際に添付するファイルを確認してください。
 
