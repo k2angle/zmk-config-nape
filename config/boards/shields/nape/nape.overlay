@@ -3,12 +3,15 @@
 
 / {
     chosen {
-        zmk,kscan = &default_kscan;
         zmk,physical-layout = &physical_layout0;
     };
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
+
+        // 接続の切り分けのため、キー読み取りを一時的に無効化
+        status = "disabled";
+
         wakeup-source;
 
         // Napeの表面3キー：元のGPIO順
@@ -21,7 +24,6 @@
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Nape Peripheral";
-        kscan = <&default_kscan>;
         transform = <&default_transform>;
     };
 
@@ -30,7 +32,7 @@
         rows = <5>;
         columns = <14>;
 
-        // 表面3キーの入力を、追加した行へ移す
+        // Napeの入力を、追加した行へ移す設定
         row-offset = <4>;
 
         // Poached Eggと同じ53キーの並び
